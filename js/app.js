@@ -1,3 +1,7 @@
+import './list.js';
+
+const items = ['one', 'two', 'three'];
+
 export function App() {
-  return `<div>Hello World!</div>`;
+  return `<x-list items=${items} />`;
 }
